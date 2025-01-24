@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "./src",
+    "target": "es5",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@includes/*": ["includes/*"]
+    },
+    "types": ["jest"]
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules", 
+    "build",
+  ]
+}
